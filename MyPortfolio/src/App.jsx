@@ -32,7 +32,7 @@ export default function Portfolio() {
           <h1 className="text-2xl">My Portfolio</h1>
         </header>
         
-        <section className="w-full text-center flex flex-row justify-center flex-wrap py-10 bg-gray-800 shadow-lg col-span-full">
+        <section className="w-full text-center flex flex-row justify-evenly flex-wrap py-10 bg-gray-800 shadow-lg col-span-full">
           <motion.section initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} className="w-min-[400px]">
             <h1 className="text-5xl font-semibold">Fredrick George F</h1>
             <p className="text-lg text-gray-400 mt-2">Engineer | Developer | Tech Enthusiast</p>
@@ -50,7 +50,7 @@ export default function Portfolio() {
           </motion.section>
         </section>
         
-        <section className="w-screen mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <section className="w-full mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <h2 className="text-4xl font-semibold mb-6 col-span-full text-center">Projects</h2>
           <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800 p-6 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">FHIR Resource Viewer</h3>
@@ -64,7 +64,7 @@ export default function Portfolio() {
           </motion.div>
         </section>
         
-        <section className="mx-auto py-6 grid grid-flow-row gap-6 items-center w-screen">
+        <section className="mx-auto p-6 grid grid-flow-row gap-6 items-center w-full">
           <h2 className="text-4xl font-semibold mb-6 col-span-full text-center">Skills</h2>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="bg-gray-800 p-6 rounded-xl shadow-lg w-full">
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-lg font-bold text-center">
