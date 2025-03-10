@@ -83,13 +83,13 @@ export default function Portfolio() {
         <footer className="text-center p-6 bg-gray-800 shadow-lg col-span-full">
           <h2 className="text-2xl font-semibold">Contact Me</h2>
           <div className="flex justify-center gap-6 mt-4">
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
+            <a href="https://github.com/Fredrick2503" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
+            <a href="www.linkedin.com/in/fredrick-george-f-23b564355" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
               <FaLinkedin />
             </a>
-            <a href="mailto:youremail@example.com" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
+            <a href="mailto:fredrick.george.f.25@gmail.com" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
               <FaEnvelope />
             </a>
           </div>
