@@ -86,7 +86,7 @@ export default function Portfolio() {
             <a href="https://github.com/Fredrick2503" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
               <FaGithub />
             </a>
-            <a href="www.linkedin.com/in/fredrick-george-f-23b564355" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/fredrick-george-f-23b564355" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
               <FaLinkedin />
             </a>
             <a href="mailto:fredrick.george.f.25@gmail.com" className="text-3xl hover:text-gray-500 transition-transform transform hover:scale-110">
