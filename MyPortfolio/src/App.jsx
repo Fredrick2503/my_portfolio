@@ -32,7 +32,7 @@ export default function Portfolio() {
           <h1 className="text-2xl">My Portfolio</h1>
         </header>
         
-        <section className="w-screen text-center flex flex-row justify-center flex-wrap p-10 bg-gray-800 shadow-lg col-span-full">
+        <section className="w-screen text-center flex flex-row justify-center flex-wrap py-10 bg-gray-800 shadow-lg col-span-full">
           <motion.section initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} className="w-min-[400px]">
             <h1 className="text-5xl font-semibold">Fredrick George F</h1>
             <p className="text-lg text-gray-400 mt-2">Engineer | Developer | Tech Enthusiast</p>
