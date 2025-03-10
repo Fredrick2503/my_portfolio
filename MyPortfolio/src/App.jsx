@@ -64,7 +64,7 @@ export default function Portfolio() {
           </motion.div>
         </section>
         
-        <section className="mx-auto p-6 grid grid-flow-row gap-6 items-center w-screen">
+        <section className="mx-auto py-6 grid grid-flow-row gap-6 items-center w-screen">
           <h2 className="text-4xl font-semibold mb-6 col-span-full text-center">Skills</h2>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="bg-gray-800 p-6 rounded-xl shadow-lg w-full">
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-lg font-bold text-center">
