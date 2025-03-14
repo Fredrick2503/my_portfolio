@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import profileImage from "./assets/H8293 (2).jpg";
+import {redirect} from "react-router"
 
 const Loading = () => (
   <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
@@ -60,7 +61,7 @@ export default function Portfolio() {
           <motion.div whileHover={{ scale: 1.05 }} className="bg-gray-800 p-6 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">Smart Classroom QR Auth</h3>
             <p className="text-gray-400 mt-2">A QR-based authentication system for smartboards.</p>
-            <a className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg " href="https://github.com/Fredrick2503/SIH1637" >View Project</a>
+            <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg " onClick={()=>(window.location.href="https://github.com/Fredrick2503/SIH1637")} >View Project</button>
           </motion.div>
         </section>
         
